@@ -55,26 +55,26 @@ nav{
     transition: all 1.5s ease-in-out;
   }
   
-  .sliderItem {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
   
-  .sliderBg {
-    width: 750px;
-    height: 750px;
-    border-radius: 50%;
-    position: absolute;
-  }
+.sliderBg {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+}
   
-  .sliderImg {
-    z-index: 1;
-  }
+.sliderImg {
+  z-index: 1;
+}
   
-  .sliderTitle {
+.sliderTitle {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -145,3 +145,30 @@ nav{
   .sliderItem:nth-child(5) .sliderPrice {
     color: cornsilk;
   }
+  .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .featureIcon{
+    width: 50px;
+    height: 50px;
+  }
+.featureTitle{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.featureDesc{
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
