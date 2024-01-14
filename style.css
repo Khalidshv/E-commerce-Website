@@ -227,7 +227,7 @@ nav{
   font-weight: 600;
   cursor: pointer;
 }
-.productButton{
+.productButton:hover{
   background-color: white;
   color: black; 
 }
